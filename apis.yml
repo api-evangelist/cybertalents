@@ -1,7 +1,15 @@
 aid: cybertalents
 name: CyberTalents
-description: CyberTalents is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CyberTalents is a global cybersecurity platform that ranks and connects
+  security talent with employers based on real, hands-on skills. The platform
+  automates Capture the Flag (CTF) competitions, delivers cybersecurity courses
+  and training camps, runs technical assessments for enterprises, and provides
+  recruitment and headhunting services to close the global cybersecurity skills
+  gap. Backed by 500 Global, CyberTalents operates from Egypt, the UAE, and the
+  United States and hosts one of the largest cybersecurity practice communities
+  in the world. This API Evangelist profile tracks CyberTalents as a company; no
+  public API or developer program was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/cybertalents/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cybertalents.com/images/favicon/cybertalents/ms-icon-1200x1200.png
 tags:
 - Company
+- Cybersecurity
+- Security Training
+- Capture The Flag
+- Talent Assessment
+- Recruitment
+- Certification
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://cybertalents.com
+- type: Blog
+  url: https://cybertalents.com/blog
+- type: Pricing
+  url: https://cybertalents.com/pricing
+- type: SignUp
+  url: https://cybertalents.com/register/member
+- type: Login
+  url: https://cybertalents.com/login
+- type: Support
+  url: https://cybertalents.com/faq
+- type: PrivacyPolicy
+  url: https://cybertalents.com/privacy
+- type: DomainSecurity
+  url: security/cybertalents-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
